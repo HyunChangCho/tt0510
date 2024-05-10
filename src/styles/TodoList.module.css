@@ -1,0 +1,44 @@
+.container {
+  max-width: 600px;
+  margin: 20px auto;
+  padding: 20px;
+  background-color: pink;
+  border-radius: 10px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+input[type="text"].itemInput {
+  width: 100%;
+  padding: 5px;
+  margin-bottom: 10px;
+}
+
+button.addButton {
+  padding: 5px;
+  background-color: palevioletred;
+  color: white;
+  border: 1px solid palevioletred;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+button.addButton:hover {
+  background-color: #fff;
+  color: pink;
+}
+
+.todoItem {
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.todoText {
+  margin-left: 10px;
+  flex-grow: 1;
+}
+
+
+.registrationDate {
+  margin-right: 20px; /* Add right margin of 20px */
+}
