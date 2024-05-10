@@ -30,7 +30,7 @@ import {
 } from "firebase/firestore";
 
 // DB의 todos 컬렉션 참조를 만듭니다. 컬렉션 사용시 잘못된 컬렉션 이름 사용을 방지합니다.
-const todoCollection = collection(db, "todos");
+const todoCollection = collection(db, "(default)");
 
 // TodoList 컴포넌트를 정의합니다.
 const TodoList = () => {
